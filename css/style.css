@@ -1,0 +1,42 @@
+.header{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.lang-section{
+	grid-column-start: 1;
+	grid-column-end: 13;
+}
+
+.explanation-block{
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+
+.contact-block{
+	grid-column-start: 9;
+	grid-column-end: 11;
+}
+
+.login-block{
+	grid-column-start: 11;
+	grid-column-end: 13;
+}
+
+.naigation-block{
+	grid-column-start: 1;
+	grid-column-end: 9;
+}
+
+.naigation-block ul{
+	padding-left: 0px;
+}
+
+.naigation-block ul li{
+	display: inline;
+	margin-right: 35px;
+}
+.order-call-block{
+	grid-column-start: 11;
+	grid-column-end: 13;
+}
