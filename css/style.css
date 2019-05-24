@@ -1,31 +1,78 @@
+body{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-feature-settings: 'liga';
+}
+
 .header{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 37px 60px 35px;
 }
 
 .lang-section{
-	grid-column-start: 1;
-	grid-column-end: 13;
+	grid-column: 12/13;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-self: center;
+}
+
+.lang-section a{
+	text-decoration: underline;
+	/* color: #FFFFFF; */
 }
 
 .explanation-block{
-	grid-column-start: 1;
-	grid-column-end: 7;
+	grid-column: 1/7;
 }
 
 .contact-block{
-	grid-column-start: 9;
-	grid-column-end: 11;
+	grid-column: 8/10;
+	font-weight: 550;
+	font-size: 23px;
+	padding-right: 40px;
+}
+.contact-block-email,.contact-block-mobile{
+	float:right;
+}
+
+.header-buttons{
+	padding-top: 5px;
+	grid-column: 10/13;
+	grid-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
 }
 
 .login-block{
-	grid-column-start: 11;
-	grid-column-end: 13;
+	width: 100%;
+}
+
+.order-call-block{
+	width: 100%;
+}
+
+.login-block button{
+	background-color: #ED1C24;
+	color: #ffffff;
+	height: 43px;
+	width: 100%;
+	font-size: 21px;
+	font-weight: 550;
+	border: none;
+}
+
+.order-call-block button{
+	height: 43px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 550;
+	border: none;
 }
 
 .naigation-block{
-	grid-column-start: 1;
-	grid-column-end: 9;
+	grid-column: 1/9;
 }
 
 .naigation-block ul{
@@ -36,7 +83,10 @@
 	display: inline;
 	margin-right: 35px;
 }
-.order-call-block{
-	grid-column-start: 11;
-	grid-column-end: 13;
+
+.naigation-block ul li a{
+	font-size: 16px;
+	font-weight: 550;
+	text-transform: uppercase;
 }
+
