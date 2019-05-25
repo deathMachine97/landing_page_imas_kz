@@ -5,6 +5,41 @@ body{
 	font-feature-settings: 'liga';
 }
 
+.bg-dark-gray{
+	background: #6c6d6f;
+}
+
+.bg-white{
+	background: #ffffff;
+}
+
+.bg-gray{
+	background: #F2F2F2;
+}
+
+.bg-red{
+	background: #C14D43;
+	
+}
+
+.bg-blue{
+	background: #35ACEB;
+}
+
+.row{
+	width: 1480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.head{
+	min-height: 700px;
+	color: #ffffff;
+}
+.head a{
+	color: #ffffff;
+}
+
 .header{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -64,6 +99,9 @@ body{
 }
 
 .order-call-block button{
+	color: #ffffff;
+	background: inherit;
+	border: 1px solid #dee2e6!important;
 	height: 43px;
 	width: 100%;
 	font-size: 16px;
@@ -90,3 +128,118 @@ body{
 	text-transform: uppercase;
 }
 
+.dashboard{
+	background: inherit;
+	padding-left: 0px;
+	color: #ffffff !important;
+	margin-top: 50px;
+}
+
+.dashboard .dashboard-preview{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.dashboard .dashboard-main{
+	margin: 15px auto;
+	font-size: 60px;
+	font-weight: 550;
+}
+
+.dashboard .dashboard-conclusion{
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.dashboard .dashboard-advantages{
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.dashboard-button{
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/* Control */
+.control-block{
+	padding-top: 85px;
+}
+
+.control-block-top-big{
+	color: #35ACEB;
+	font-size: 36px;
+	line-height: 43px;
+	font-weight: 800;
+}
+
+.control-block-top-middle{
+	font-family: '__Rubik_5';
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 650;
+}
+
+.control-block-top-small{
+	font-family: '__Rubik_5';
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.control-block-bottom{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.control-block-title{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 121px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #35ACEB;
+	font-weight: 650;	
+}
+
+.control-block-text{
+	padding-left: 25px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	color: #505050;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+
+
+/* support */
+.support-block{
+	padding-top: 85px;
+}
+
+.support-block-top-big{
+	color: #35ACEB;
+	font-size: 36px;
+	line-height: 43px;
+	font-weight: 800;
+}
+
+.support-block-top-middle{
+	font-family: '__Rubik_5';
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 650;
+}
+
+.support-block-top-small{
+	font-family: '__Rubik_5';
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.support-block-bottom{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
