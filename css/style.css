@@ -200,7 +200,7 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	color: #35ACEB;
-	font-weight: 650;	
+	font-weight: 750;	
 }
 
 .control-block-text{
@@ -212,11 +212,60 @@ body{
 	line-height: 16px;
 }
 
+/* get-reports */
+.get-reports-block{
+	margin-top: 85px;
+	display: grid;
+	grid-template-columns: 6fr 9fr;
+}
 
+.get-reports-left{
+	position: relative;
+}
+
+.get-reports-img{
+	position: absolute;
+	top: -20px;
+}
+
+.get-reports-right{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.get-reports-text-big{
+	font-size: 36px;
+	font-weight: 750;
+	line-height: 43px;
+}
+
+.get-reports-text-middle{
+	font-size: 22px;
+	font-weight: 550;
+	line-height: 26px;
+}
+
+.get-reports-text-small{
+	font-size: 16px;
+    line-height: 19px;
+}
+
+.get-reports-button{
+	color: #1A1A1A;
+	font-size: 20px;
+	border: none;
+	font-weight: 550;
+	padding: 20px 20px;
+	margin-top: 55px;
+}
 
 /* support */
 .support-block{
-	padding-top: 85px;
+	margin-top: 125px;
+}
+
+.support-block-top{
+	padding-left: 20px;
 }
 
 .support-block-top-big{
@@ -236,10 +285,80 @@ body{
 .support-block-top-small{
 	font-family: '__Rubik_5';
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 19px;
 }
 
 .support-block-bottom{
+	margin-top: 65px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 100px;
+}
+
+.support-block-title{
+	padding-left: 25px;
+	padding-right: 25px;
+	/* padding-top: 121px; */
+	font-size: 18px;
+	line-height: 22px;
+	color: #35ACEB;
+	font-weight: 750;
+}
+
+.support-block-text{
+	padding-left: 25px;
+	color: #505050;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+/* free-demo */
+.free-demo-block{
+	margin-top: 125px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.free-demo-left{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.free-demo-right{
+	position: relative;
+}
+
+.free-demo-img{
+	position: absolute;
+	top: -125px;
+	left: 40px;
+}
+
+.free-demo-big{
+	font-weight: 750;
+	line-height: 43px;
+	color: #35ACEB;
+	font-size: 36px;
+}
+
+.free-demo-middle{
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 550;
+}
+
+.free-demo-small{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 19px;
+}
+
+.free-demo-button{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 550;
+	text-align: center;
+	line-height: 24px;
+	padding: 13px 40px;
+	border: none;
 }
