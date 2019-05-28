@@ -247,7 +247,7 @@ body{
 
 .get-reports-text-small{
 	font-size: 16px;
-    line-height: 19px;
+	line-height: 19px;
 }
 
 .get-reports-button{
@@ -361,4 +361,47 @@ body{
 	line-height: 24px;
 	padding: 13px 40px;
 	border: none;
+}
+
+.employment-block{
+	margin-top: 125px;
+}
+
+.employment-top-big{
+	color:#35ACEB;
+	font-size: 36px;
+	line-height: 43px;
+	font-weight: 750;
+}
+
+.employment-top-middle{
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.employment-block-bottom{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employment-block-card{
+	padding-left: 20px;
+	padding-right: 160px;
+}
+
+.employment-block-card-img{
+	margin: 80px 0px 40px 0;
+	color:  #35ACEB;
+	width: 84px;
+	height: 84px;
+}
+
+.employment-block-card-text{
+	text-align: justify;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+	padding-bottom: 60px;
 }
