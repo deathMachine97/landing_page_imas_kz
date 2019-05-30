@@ -1,0 +1,51 @@
+.w-100 {
+  width: 100%; }
+
+.develop-block .develop-block-top-big, .keep-in-control-block .keep-in-control-text-big {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 750;
+  text-transform: uppercase; }
+
+.develop-block .develop-block-top-middle, .keep-in-control-block .keep-in-control-text-middle {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 650; }
+
+.develop-block .develop-block-top-small {
+  font-family: '__Rubik_5';
+  font-size: 16px;
+  line-height: 19px; }
+
+.develop-block .develop-block-bottom {
+  display: grid;
+  grid-gap: 100px;
+  margin-top: 65px; }
+
+.develop-block .develop-block-title {
+  font-weight: 750;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 18px; }
+
+.keep-in-control-block {
+  display: grid;
+  grid-template-columns: 9fr 3fr; }
+
+.develop-block {
+  margin-top: 85px; }
+  .develop-block .develop-block-top-big {
+    color: #35ACEB; }
+  .develop-block .develop-block-title {
+    color: #35ACEB; }
+  .develop-block .develop-block-bottom {
+    grid-gap: 70px;
+    grid-column-gap: 70px;
+    grid-template-columns: repeat(3, 1fr); }
+
+.keep-in-control-block {
+  margin-top: 85px; }
+  .keep-in-control-block .keep-in-control-text-big {
+    margin-top: 45px; }
+
+/*# sourceMappingURL=main.css.map */

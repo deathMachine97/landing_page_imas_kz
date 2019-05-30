@@ -1,0 +1,97 @@
+.w-100{
+	width: 100%;
+}
+
+$bg_margin_top: 85px;
+$md_margin_top: 45px;
+$clr_blue: #35ACEB;
+$clr_gray: #F2F2F2;
+$clr_white: #ffffff;
+$shadow_block: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+%header-big-texts{
+	font-size: 36px;
+	line-height: 43px;
+	font-weight: 750;
+	text-transform: uppercase;
+}
+
+%header-md-texts{
+    font-size: 22px;
+	line-height: 26px;
+	font-weight: 650;
+}
+
+%header-sm-texts{
+	font-family: '__Rubik_5';
+	font-size: 16px;
+	line-height: 19px;
+}
+
+%cards-block{
+	display: grid;
+	grid-gap: 100px;
+	margin-top: 65px;
+}
+
+%card-title{
+	font-weight: 750;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+%card-title-mlt-col{
+	font-weight: 750;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+%block-with-right-img{
+	display: grid;
+	grid-template-columns: 9fr 3fr;
+}
+
+%block-with-left-img{
+	display: grid;
+	grid-template-columns: 3fr 9fr;	
+}
+
+.develop-block{
+	margin-top: $bg_margin_top;
+	.develop-block-top-big{
+		@extend %header-big-texts;
+		color: #35ACEB;
+	}
+	.develop-block-top-middle{
+		@extend %header-md-texts;
+	}
+	.develop-block-top-small{
+		@extend %header-sm-texts;
+	}
+	.develop-block-title{
+		@extend %card-title-mlt-col;
+		color: #35ACEB;
+	}
+	.develop-block-bottom{
+		@extend %cards-block;
+		grid-gap: 70px;
+		grid-column-gap: 70px;
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+.keep-in-control-block{
+	margin-top: $bg_margin_top;
+	@extend %block-with-right-img;
+	.keep-in-control-text-big{
+		@extend %header-big-texts;
+		margin-top: $md_margin_top;
+	}
+
+	.keep-in-control-text-middle{
+		@extend %header-md-texts;
+	}
+
+}
