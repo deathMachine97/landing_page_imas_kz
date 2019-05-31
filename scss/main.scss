@@ -2,13 +2,13 @@
 	width: 100%;
 }
 
-$bg_margin_top: 85px;
-$md_margin_top: 45px;
+$big: 85px;
+$mid: 45px;
 $clr_blue: #35ACEB;
 $clr_gray: #F2F2F2;
 $clr_white: #ffffff;
 $shadow_block: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-
+$white_border: 1px solid #dee2e6 !important;
 %header-big-texts{
 	font-size: 36px;
 	line-height: 43px;
@@ -58,8 +58,26 @@ $shadow_block: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 	grid-template-columns: 3fr 9fr;	
 }
 
+%block-with-img-button{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+    line-height: 24px;
+    padding: 13px 40px;
+}
+
+%right_side_img{
+	position: absolute;
+	left: -393px;
+	top: -330px;
+	width: 1035px;
+	height: 900px;
+}
+
+
 .develop-block{
-	margin-top: $bg_margin_top;
+	margin-top: $big;
 	.develop-block-top-big{
 		@extend %header-big-texts;
 		color: #35ACEB;
@@ -83,15 +101,38 @@ $shadow_block: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
 .keep-in-control-block{
-	margin-top: $bg_margin_top;
+	margin-top: $big;
 	@extend %block-with-right-img;
-	.keep-in-control-text-big{
-		@extend %header-big-texts;
-		margin-top: $md_margin_top;
+	.keep-in-control-left{
+		.keep-in-control-text-big{
+			@extend %header-big-texts;
+			margin-top: $mid;
+		}
+		.keep-in-control-text-middle{
+			@extend %header-md-texts;
+		}
+		.keep-in-control-text-main{
+			width: 645px;
+			color: #FFFFFF;
+			font-size: 22px;
+			text-align: justify;
+			line-height: 26px;
+			font-family: '__Rubik_5';
+			font-weight: 400;
+		}
+		.keep-in-control-button{
+			@extend %block-with-img-button;
+			background-color: $clr_blue;
+			color: $clr_white;
+			border: $white_border;
+		}
 	}
-
-	.keep-in-control-text-middle{
-		@extend %header-md-texts;
+	.keep-in-control-right{
+		position: relative;
+		img.keep-in-control-img{
+			@extend %right_side_img;
+		}
 	}
-
+	padding-bottom: $mid;
 }
+

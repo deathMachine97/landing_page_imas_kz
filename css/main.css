@@ -1,13 +1,13 @@
 .w-100 {
   width: 100%; }
 
-.develop-block .develop-block-top-big, .keep-in-control-block .keep-in-control-text-big {
+.develop-block .develop-block-top-big, .keep-in-control-block .keep-in-control-left .keep-in-control-text-big {
   font-size: 36px;
   line-height: 43px;
   font-weight: 750;
   text-transform: uppercase; }
 
-.develop-block .develop-block-top-middle, .keep-in-control-block .keep-in-control-text-middle {
+.develop-block .develop-block-top-middle, .keep-in-control-block .keep-in-control-left .keep-in-control-text-middle {
   font-size: 22px;
   line-height: 26px;
   font-weight: 650; }
@@ -32,6 +32,21 @@
   display: grid;
   grid-template-columns: 9fr 3fr; }
 
+.keep-in-control-block .keep-in-control-left .keep-in-control-button {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
+  line-height: 24px;
+  padding: 13px 40px; }
+
+.keep-in-control-block .keep-in-control-right img.keep-in-control-img {
+  position: absolute;
+  left: -393px;
+  top: -330px;
+  width: 1035px;
+  height: 900px; }
+
 .develop-block {
   margin-top: 85px; }
   .develop-block .develop-block-top-big {
@@ -44,8 +59,23 @@
     grid-template-columns: repeat(3, 1fr); }
 
 .keep-in-control-block {
-  margin-top: 85px; }
-  .keep-in-control-block .keep-in-control-text-big {
+  margin-top: 85px;
+  padding-bottom: 45px; }
+  .keep-in-control-block .keep-in-control-left .keep-in-control-text-big {
     margin-top: 45px; }
+  .keep-in-control-block .keep-in-control-left .keep-in-control-text-main {
+    width: 645px;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 26px;
+    font-family: '__Rubik_5';
+    font-weight: 400; }
+  .keep-in-control-block .keep-in-control-left .keep-in-control-button {
+    background-color: #35ACEB;
+    color: #ffffff;
+    border: 1px solid #dee2e6 !important; }
+  .keep-in-control-block .keep-in-control-right {
+    position: relative; }
 
 /*# sourceMappingURL=main.css.map */
